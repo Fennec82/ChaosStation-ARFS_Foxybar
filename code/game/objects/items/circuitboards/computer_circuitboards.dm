@@ -450,3 +450,8 @@
 /obj/item/circuitboard/computer/bos
 	name = "Brotherhood Monitor (Computer Board)"
 	build_path = /obj/machinery/computer/security/bos
+
+/obj/item/circuitboard/computer/arcade/minesweeper
+	name = "Minesweeper (Computer Board)"
+	icon_state = "generic"
+	build_path = /obj/machinery/computer/arcade/minesweeper

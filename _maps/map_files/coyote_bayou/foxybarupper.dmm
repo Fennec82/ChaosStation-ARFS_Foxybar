@@ -3831,8 +3831,7 @@
 /obj/effect/turf_decal/siding/wood{
 	color = "#3B2B1A"
 	},
-/obj/machinery/computer/arcade{
-	density = 0;
+/obj/machinery/computer/arcade/minesweeper{
 	dir = 1
 	},
 /turf/open/floor/carpet/black,

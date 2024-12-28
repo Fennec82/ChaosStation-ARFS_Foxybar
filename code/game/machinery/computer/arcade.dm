@@ -27,9 +27,10 @@
 	// If it's a generic arcade machine, pick a random arcade
 	// circuit board for it and make the new machine
 	if(!circuit)
-		var/list/gameodds = list(/obj/item/circuitboard/computer/arcade/battle = 33,
-								/obj/item/circuitboard/computer/arcade/orion_trail = 33,
-								/obj/item/circuitboard/computer/arcade/tetris = 33
+		var/list/gameodds = list(/obj/item/circuitboard/computer/arcade/battle = 25,
+								/obj/item/circuitboard/computer/arcade/orion_trail = 25,
+								/obj/item/circuitboard/computer/arcade/tetris = 25,
+								/obj/item/circuitboard/computer/arcade/minesweeper = 25
 
 								)
 		var/thegame = pickweight(gameodds)

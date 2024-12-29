@@ -85,7 +85,7 @@
 	do_sound_at(flirter)
 	do_sound_at(target)
 	SSchat.flirt_occurred(flirter, target)
-	tell_ghosting_admins(flirter, target)
+	//tell_ghosting_admins(flirter, target)
 	return TRUE
 
 /datum/flirt/proc/flirt_aoe(mob/living/flirter)
@@ -97,7 +97,7 @@
 		msg_to_everyone,
 		blind_message = msg_to_everyone, // love is blind
 	)
-	tell_ghosting_admins(flirter, null)
+	//tell_ghosting_admins(flirter, null)
 	return TRUE
 
 /datum/flirt/proc/format_directed_selfmessage(flirter, target)

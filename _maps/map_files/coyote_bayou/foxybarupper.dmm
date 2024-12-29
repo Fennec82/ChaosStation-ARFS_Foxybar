@@ -487,42 +487,9 @@
 	},
 /area/f13/fb/bar)
 "fu" = (
-/obj/effect/turf_decal/siding/wood{
-	dir = 1;
-	color = "#3B2B1A"
-	},
-/obj/effect/turf_decal/siding/wood{
-	dir = 8;
-	color = "#3B2B1A"
-	},
-/obj/effect/turf_decal/siding/wood/corner{
-	dir = 1;
-	color = "#3B2B1A"
-	},
-/obj/item/flashlight/oldlamp{
-	light_on = 1;
-	light_power = 6;
-	pixel_x = -11;
-	pixel_y = 24;
-	on = 1
-	},
-/obj/item/lighter/fox{
-	pixel_y = 41;
-	pixel_x = 20
-	},
-/obj/structure/bookcase{
-	density = 0;
-	pixel_y = 24;
-	pixel_x = 14
-	},
-/obj/item/kirbyplants/bonsai/orange{
-	pixel_x = -5;
-	pixel_y = 11
-	},
-/turf/open/floor/carpet/black{
-	color = "#C6321F"
-	},
-/area/f13/fb/bar)
+/obj/effect/sound_emitter/foxybar/threecandles,
+/turf/closed/wall/mineral/brick,
+/area/f13/caves)
 "fw" = (
 /obj/structure/chair/f13chair1{
 	dir = 1
@@ -941,6 +908,13 @@
 	pixel_y = 16
 	},
 /turf/open/floor/plasteel/freezer,
+/area/f13/fb/bar)
+"jJ" = (
+/obj/structure/decoration/sign{
+	icon_state = "vault_level2";
+	pixel_y = 30
+	},
+/turf/open/floor/carpet/black,
 /area/f13/fb/bar)
 "jO" = (
 /obj/effect/decal/cleanable/dirt,
@@ -2663,13 +2637,42 @@
 /turf/open/floor/wood_mosaic/wood_mosaic_dark,
 /area/f13/caves)
 "zc" = (
-/obj/structure/curtain{
-	color = "#1F1F1F"
+/obj/effect/turf_decal/siding/wood{
+	dir = 1;
+	color = "#3B2B1A"
 	},
-/turf/open/floor/wood_mosaic/wood_mosaic_light{
-	color = "#bbbbbb"
+/obj/effect/turf_decal/siding/wood{
+	dir = 8;
+	color = "#3B2B1A"
 	},
-/area/f13/fb/bar)
+/obj/effect/turf_decal/siding/wood/corner{
+	dir = 1;
+	color = "#3B2B1A"
+	},
+/obj/item/flashlight/oldlamp{
+	light_on = 1;
+	light_power = 6;
+	pixel_x = -11;
+	pixel_y = 24;
+	on = 1
+	},
+/obj/item/lighter/fox{
+	pixel_y = 41;
+	pixel_x = 20
+	},
+/obj/structure/bookcase{
+	density = 0;
+	pixel_y = 24;
+	pixel_x = 14
+	},
+/obj/item/kirbyplants/bonsai/orange{
+	pixel_x = -5;
+	pixel_y = 11
+	},
+/turf/open/floor/carpet/black{
+	color = "#C6321F"
+	},
+/area/f13/caves)
 "ze" = (
 /obj/effect/turf_decal/weather/splineplain{
 	dir = 5
@@ -3195,16 +3198,8 @@
 	},
 /area/f13/fb/bar)
 "Fc" = (
-/obj/item/storage/box/dice{
-	pixel_x = 5;
-	pixel_y = -2
-	},
-/obj/item/storage/box/dice{
-	pixel_x = -8;
-	pixel_y = -2
-	},
 /turf/closed/wall/mineral/brick,
-/area/f13/fb/bar)
+/area)
 "Fg" = (
 /obj/effect/turf_decal/weather/splineplain{
 	dir = 8
@@ -3477,6 +3472,18 @@
 	},
 /turf/open/floor/carpet/black,
 /area/f13/fb/bar)
+"Id" = (
+/obj/machinery/light/floor{
+	light_color = "#444499";
+	color = "#444499";
+	alpha = 10
+	},
+/obj/effect/turf_decal/siding/wood{
+	dir = 8;
+	color = "#3B2B1A"
+	},
+/turf/open/floor/carpet/black,
+/area/f13/fb/bar)
 "Ie" = (
 /obj/structure/table/abductor,
 /obj/effect/turf_decal/siding/wood{
@@ -3488,9 +3495,16 @@
 	},
 /area/f13/fb/bar)
 "In" = (
-/obj/effect/sound_emitter/foxybar/threecandles,
+/obj/item/storage/box/dice{
+	pixel_x = 5;
+	pixel_y = -2
+	},
+/obj/item/storage/box/dice{
+	pixel_x = -8;
+	pixel_y = -2
+	},
 /turf/closed/wall/mineral/brick,
-/area/f13/fb/bar)
+/area/f13/caves)
 "Iu" = (
 /obj/structure/toilet{
 	dir = 8;
@@ -3542,7 +3556,7 @@
 	color = "#1F1F1F"
 	},
 /turf/open/floor/wood_mosaic/wood_mosaic_dark,
-/area/f13/fb/bar)
+/area/f13/caves)
 "Jp" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 4;
@@ -3745,6 +3759,14 @@
 "LF" = (
 /turf/open/floor/plasteel/f13/whitemarble,
 /area/f13/fb/bar)
+"Mo" = (
+/obj/structure/curtain{
+	color = "#1F1F1F"
+	},
+/turf/open/floor/wood_mosaic/wood_mosaic_light{
+	color = "#bbbbbb"
+	},
+/area/f13/caves)
 "Mv" = (
 /obj/effect/turf_decal/weather/splineplain{
 	dir = 5
@@ -4858,7 +4880,7 @@
 /turf/open/floor/carpet/black{
 	color = "#C6321F"
 	},
-/area/f13/fb/bar)
+/area/f13/caves)
 "WY" = (
 /obj/structure/rug/big/rug_red{
 	pixel_x = -4;
@@ -10008,12 +10030,12 @@ nZ
 nZ
 nZ
 nZ
+il
+il
+il
+il
+il
 nZ
-il
-il
-il
-il
-il
 nZ
 nZ
 nZ
@@ -10085,7 +10107,6 @@ nZ
 nZ
 "}
 (43,1,1) = {"
-nZ
 nZ
 nZ
 nZ
@@ -10200,9 +10221,9 @@ nZ
 nZ
 nZ
 nZ
+nZ
 "}
 (44,1,1) = {"
-nZ
 nZ
 nZ
 nZ
@@ -10317,9 +10338,9 @@ nZ
 nZ
 nZ
 nZ
+nZ
 "}
 (45,1,1) = {"
-nZ
 nZ
 nZ
 nZ
@@ -10371,6 +10392,7 @@ il
 il
 il
 il
+nZ
 nZ
 nZ
 nZ
@@ -10476,7 +10498,6 @@ nZ
 nZ
 nZ
 nZ
-nZ
 Bj
 zg
 DE
@@ -10504,11 +10525,12 @@ il
 il
 il
 il
+il
+il
 Qe
 Qe
 Qe
 Qe
-nZ
 nZ
 nZ
 nZ
@@ -10587,14 +10609,13 @@ nZ
 nZ
 nZ
 nZ
-nZ
 Dp
 Dp
 Dp
 Dp
 Dp
 Dp
-il
+Dp
 ON
 aE
 zz
@@ -10605,8 +10626,10 @@ il
 kk
 Iu
 il
+il
 Gv
 Zr
+Id
 Pc
 Fv
 il
@@ -10625,7 +10648,6 @@ Qe
 Qe
 Qe
 Qe
-nZ
 nZ
 nZ
 nZ
@@ -10703,7 +10725,6 @@ nZ
 nZ
 nZ
 nZ
-nZ
 Dp
 Dp
 Vk
@@ -10711,7 +10732,7 @@ ah
 gw
 rV
 Dp
-il
+Dp
 cm
 qR
 cE
@@ -10722,7 +10743,9 @@ il
 MW
 il
 il
+il
 yx
+zr
 zr
 Xy
 Zq
@@ -10742,7 +10765,6 @@ Qe
 Qe
 Qe
 Qe
-nZ
 nZ
 nZ
 nZ
@@ -10820,7 +10842,6 @@ nZ
 nZ
 nZ
 nZ
-nZ
 Dp
 Oz
 fR
@@ -10828,7 +10849,7 @@ SP
 Hn
 mG
 XQ
-il
+Dp
 nC
 mb
 op
@@ -10839,7 +10860,9 @@ il
 pb
 yP
 il
+il
 YO
+zr
 zr
 Xy
 QJ
@@ -10859,7 +10882,6 @@ Qe
 Qe
 Qe
 Qe
-nZ
 nZ
 nZ
 nZ
@@ -10937,7 +10959,6 @@ nZ
 nZ
 nZ
 nZ
-nZ
 Dp
 YD
 Um
@@ -10945,7 +10966,7 @@ AR
 Cd
 yM
 zK
-il
+Dp
 il
 il
 il
@@ -10956,7 +10977,9 @@ av
 Mv
 aC
 il
+il
 kX
+zr
 zr
 Xy
 NB
@@ -10976,7 +10999,6 @@ Qe
 Qe
 Qe
 Qe
-nZ
 nZ
 nZ
 nZ
@@ -11054,7 +11076,6 @@ nZ
 nZ
 nZ
 nZ
-nZ
 Dp
 mF
 Bt
@@ -11062,7 +11083,7 @@ tJ
 Vo
 ws
 tM
-il
+Dp
 kF
 Fg
 jO
@@ -11073,7 +11094,9 @@ il
 il
 il
 il
+il
 Ib
+zr
 zr
 ph
 UB
@@ -11093,7 +11116,6 @@ Qe
 Qe
 Qe
 Qe
-nZ
 nZ
 nZ
 nZ
@@ -11171,7 +11193,6 @@ nZ
 nZ
 nZ
 nZ
-nZ
 Dp
 gc
 IC
@@ -11179,7 +11200,7 @@ yH
 Yu
 zB
 fT
-il
+Dp
 cR
 Ze
 Uf
@@ -11190,7 +11211,9 @@ il
 VN
 uu
 il
+il
 gU
+zr
 zr
 zr
 ji
@@ -11210,7 +11233,6 @@ Qe
 Qe
 Qe
 Qe
-nZ
 nZ
 nZ
 nZ
@@ -11288,7 +11310,6 @@ nZ
 nZ
 nZ
 nZ
-nZ
 Dp
 Dp
 ws
@@ -11296,7 +11317,7 @@ Ps
 tv
 nh
 Dp
-il
+Dp
 dw
 yn
 Ql
@@ -11308,6 +11329,8 @@ DJ
 Rv
 il
 dm
+jJ
+zr
 zr
 zr
 Ea
@@ -11327,7 +11350,6 @@ Qe
 Qe
 Qe
 Qe
-nZ
 nZ
 nZ
 nZ
@@ -11405,7 +11427,6 @@ nZ
 nZ
 nZ
 nZ
-nZ
 Dp
 Dp
 XW
@@ -11413,7 +11434,7 @@ sx
 iF
 EM
 oT
-il
+Dp
 il
 Ox
 il
@@ -11426,6 +11447,8 @@ il
 il
 Qe
 gi
+zr
+zr
 zr
 gn
 Ll
@@ -11444,7 +11467,6 @@ Qe
 Qe
 Qe
 Qe
-nZ
 nZ
 nZ
 nZ
@@ -11522,7 +11544,6 @@ nZ
 nZ
 nZ
 nZ
-nZ
 Dp
 VT
 Fq
@@ -11530,7 +11551,7 @@ tq
 Fq
 tq
 Fq
-il
+Dp
 il
 pc
 sd
@@ -11543,6 +11564,8 @@ Nz
 il
 HK
 Ts
+zr
+zr
 zr
 hj
 XK
@@ -11561,7 +11584,6 @@ Qe
 Qe
 Qe
 Qe
-nZ
 nZ
 nZ
 nZ
@@ -11639,7 +11661,6 @@ nZ
 nZ
 nZ
 nZ
-nZ
 Dp
 cK
 yQ
@@ -11647,7 +11668,7 @@ cK
 tq
 Fq
 tq
-il
+Dp
 il
 jA
 Rv
@@ -11660,6 +11681,8 @@ xI
 il
 SZ
 vE
+zr
+zr
 zr
 cY
 XK
@@ -11678,7 +11701,6 @@ Qe
 Qe
 Qe
 Qe
-nZ
 nZ
 nZ
 nZ
@@ -11756,7 +11778,6 @@ nZ
 nZ
 nZ
 nZ
-nZ
 Dp
 Oo
 jb
@@ -11764,7 +11785,7 @@ MT
 Pq
 tq
 Fq
-il
+Dp
 il
 xd
 il
@@ -11777,6 +11798,8 @@ il
 il
 Jq
 mN
+zr
+zr
 SL
 LC
 XK
@@ -11795,7 +11818,6 @@ Qe
 Qe
 Qe
 Qe
-nZ
 nZ
 nZ
 nZ
@@ -11873,7 +11895,6 @@ nZ
 nZ
 nZ
 nZ
-nZ
 Dp
 Dp
 Dp
@@ -11881,7 +11902,7 @@ Dp
 uA
 Fq
 xY
-zc
+Mo
 RJ
 Sf
 RJ
@@ -11893,6 +11914,8 @@ WI
 yj
 dy
 oD
+zr
+zr
 zr
 zr
 hj
@@ -11912,7 +11935,6 @@ Qe
 Qe
 Qe
 Qe
-nZ
 nZ
 nZ
 nZ
@@ -11987,8 +12009,7 @@ nZ
 nZ
 nZ
 nZ
-nZ
-Dp
+Fc
 Dp
 Dp
 Dp
@@ -12010,7 +12031,9 @@ zr
 zr
 MM
 zr
+zr
 ph
+zr
 zr
 LE
 XK
@@ -12029,7 +12052,6 @@ Qe
 Qe
 Qe
 Qe
-nZ
 nZ
 nZ
 nZ
@@ -12104,7 +12126,6 @@ nZ
 nZ
 nZ
 nZ
-nZ
 Dp
 kE
 vw
@@ -12115,7 +12136,7 @@ lw
 tq
 Fq
 gz
-il
+Dp
 il
 il
 il
@@ -12124,6 +12145,8 @@ nX
 zr
 zr
 ph
+zr
+zr
 zr
 zr
 zr
@@ -12146,7 +12169,6 @@ Qe
 Qe
 Qe
 Qe
-nZ
 nZ
 nZ
 nZ
@@ -12221,7 +12243,6 @@ nZ
 nZ
 nZ
 nZ
-nZ
 Dp
 ND
 oO
@@ -12232,12 +12253,14 @@ Dp
 Dp
 Dp
 Dp
-il
+Dp
 zS
 Cw
 ss
 il
 nX
+zr
+zr
 zr
 zr
 zr
@@ -12263,7 +12286,6 @@ Qe
 Qe
 Qe
 Qe
-nZ
 nZ
 nZ
 nZ
@@ -12338,7 +12360,6 @@ nZ
 nZ
 nZ
 nZ
-nZ
 Dp
 Dp
 Dp
@@ -12346,7 +12367,7 @@ Dp
 Ga
 qd
 Dp
-Fc
+In
 xx
 Qu
 Zp
@@ -12360,7 +12381,9 @@ zu
 aH
 Jp
 Jp
+Jp
 zu
+Jp
 Gf
 Jp
 vk
@@ -12380,7 +12403,6 @@ Qe
 Qe
 Qe
 Qe
-nZ
 nZ
 nZ
 nZ
@@ -12455,7 +12477,6 @@ nZ
 nZ
 nZ
 nZ
-nZ
 Dp
 kE
 vw
@@ -12463,7 +12484,7 @@ eP
 Ga
 nt
 Dp
-In
+fu
 zJ
 gh
 gh
@@ -12476,6 +12497,8 @@ hj
 il
 il
 cO
+il
+il
 il
 il
 il
@@ -12497,7 +12520,6 @@ Qe
 Qe
 Qe
 Qe
-nZ
 nZ
 nZ
 nZ
@@ -12572,7 +12594,6 @@ nZ
 nZ
 nZ
 nZ
-nZ
 Dp
 ND
 oO
@@ -12580,7 +12601,7 @@ Dp
 kr
 dl
 Dp
-fu
+zc
 gh
 Zw
 gh
@@ -12595,7 +12616,9 @@ XN
 Ag
 Uw
 il
+il
 Sa
+Ag
 Ag
 gs
 il
@@ -12614,7 +12637,6 @@ Qe
 Qe
 Qe
 Qe
-nZ
 nZ
 nZ
 nZ
@@ -12689,7 +12711,6 @@ nZ
 nZ
 nZ
 nZ
-nZ
 Dp
 Dp
 Dp
@@ -12712,7 +12733,9 @@ KU
 gh
 pd
 il
+il
 oA
+gh
 gh
 pd
 il
@@ -12731,7 +12754,6 @@ Qe
 Qe
 Qe
 Qe
-nZ
 nZ
 nZ
 nZ
@@ -12812,7 +12834,6 @@ nZ
 nZ
 nZ
 nZ
-nZ
 il
 oW
 uV
@@ -12829,7 +12850,9 @@ ys
 gh
 pd
 il
+il
 wO
+gh
 gh
 pd
 il
@@ -12848,7 +12871,6 @@ Qe
 Qe
 Qe
 Qe
-nZ
 nZ
 nZ
 nZ
@@ -12929,7 +12951,6 @@ nZ
 nZ
 nZ
 nZ
-nZ
 il
 Eh
 nU
@@ -12946,7 +12967,9 @@ XH
 gh
 Vq
 il
+il
 XH
+gh
 gh
 Vq
 il
@@ -12965,7 +12988,6 @@ Qe
 Qe
 Qe
 Qe
-nZ
 nZ
 nZ
 nZ
@@ -13046,7 +13068,6 @@ nZ
 nZ
 nZ
 nZ
-nZ
 il
 il
 il
@@ -13063,7 +13084,9 @@ XH
 gh
 Vq
 il
+il
 XH
+gh
 gh
 Vq
 il
@@ -13082,7 +13105,6 @@ tH
 tH
 il
 il
-nZ
 nZ
 nZ
 nZ
@@ -13172,7 +13194,6 @@ nZ
 nZ
 nZ
 nZ
-nZ
 il
 Fl
 Vg
@@ -13180,7 +13201,9 @@ PA
 gh
 Vq
 il
+il
 XH
+gh
 gh
 PA
 Fy
@@ -13199,7 +13222,6 @@ ag
 ag
 RS
 il
-nZ
 nZ
 nZ
 nZ
@@ -13289,7 +13311,6 @@ nZ
 nZ
 nZ
 nZ
-nZ
 il
 DC
 iO
@@ -13297,7 +13318,9 @@ iO
 PA
 Wh
 il
+il
 vB
+gh
 PA
 iO
 iO
@@ -13316,7 +13339,6 @@ qC
 dz
 ag
 il
-nZ
 nZ
 nZ
 nZ
@@ -13406,7 +13428,6 @@ nZ
 nZ
 nZ
 nZ
-nZ
 il
 XH
 UV
@@ -13414,7 +13435,9 @@ Bb
 PA
 Vq
 il
+il
 XH
+gh
 PA
 Qs
 PU
@@ -13433,7 +13456,6 @@ Wr
 OF
 ag
 il
-nZ
 nZ
 nZ
 nZ
@@ -13523,7 +13545,6 @@ nZ
 nZ
 nZ
 nZ
-nZ
 il
 qq
 iO
@@ -13531,7 +13552,9 @@ iO
 PA
 Wh
 il
+il
 vB
+gh
 PA
 iO
 iO
@@ -13550,7 +13573,6 @@ ym
 OF
 ag
 il
-nZ
 nZ
 nZ
 nZ
@@ -13640,7 +13662,6 @@ nZ
 nZ
 nZ
 nZ
-nZ
 il
 by
 Ri
@@ -13648,7 +13669,9 @@ Ri
 nU
 Kb
 il
+il
 GR
+nU
 nU
 Ri
 QY
@@ -13667,7 +13690,6 @@ mv
 OF
 oB
 il
-nZ
 nZ
 nZ
 nZ
@@ -13757,7 +13779,8 @@ nZ
 nZ
 nZ
 nZ
-nZ
+il
+il
 il
 il
 il
@@ -13826,9 +13849,9 @@ nZ
 nZ
 nZ
 nZ
-nZ
 "}
 (75,1,1) = {"
+nZ
 nZ
 nZ
 nZ
@@ -13943,9 +13966,9 @@ nZ
 nZ
 nZ
 nZ
-nZ
 "}
 (76,1,1) = {"
+nZ
 nZ
 nZ
 nZ
@@ -14060,9 +14083,9 @@ nZ
 nZ
 nZ
 nZ
-nZ
 "}
 (77,1,1) = {"
+nZ
 nZ
 nZ
 nZ
@@ -14177,9 +14200,9 @@ nZ
 nZ
 nZ
 nZ
-nZ
 "}
 (78,1,1) = {"
+nZ
 nZ
 nZ
 nZ
@@ -14294,9 +14317,9 @@ nZ
 nZ
 nZ
 nZ
-nZ
 "}
 (79,1,1) = {"
+nZ
 nZ
 nZ
 nZ
@@ -14411,9 +14434,9 @@ nZ
 nZ
 nZ
 nZ
-nZ
 "}
 (80,1,1) = {"
+nZ
 nZ
 nZ
 nZ
@@ -14528,7 +14551,6 @@ nZ
 nZ
 nZ
 nZ
-nZ
 "}
 (81,1,1) = {"
 nZ
@@ -14589,21 +14611,21 @@ nZ
 nZ
 nZ
 nZ
-il
-il
-il
-il
-il
-il
-il
-il
-il
-il
-il
-il
-il
-il
 nZ
+il
+il
+il
+il
+il
+il
+il
+il
+il
+il
+il
+il
+il
+il
 nZ
 nZ
 nZ

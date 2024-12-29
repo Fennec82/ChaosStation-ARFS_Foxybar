@@ -266,20 +266,25 @@
 /area/f13/wasteland/city/newboston/outdoors)
 "bhg" = (
 /obj/effect/turf_decal/siding/wood{
+	dir = 1;
+	color = "#3B2B1A"
+	},
+/obj/effect/turf_decal/siding/wood/corner{
+	dir = 1;
+	color = "#3B2B1A"
+	},
+/obj/effect/turf_decal/siding/wood{
+	dir = 8;
+	color = "#3B2B1A"
+	},
+/obj/effect/turf_decal/siding/wood/corner{
 	dir = 8;
 	color = "#3B2B1A"
 	},
 /obj/effect/turf_decal/siding/wood{
-	dir = 1;
 	color = "#3B2B1A"
 	},
-/obj/structure/chair/sofa/corp/left{
-	dir = 4;
-	color = "pink"
-	},
-/turf/open/floor/wood_fancy{
-	color = "#779999"
-	},
+/turf/open/floor/carpet/purple,
 /area/f13/fb/bar)
 "blw" = (
 /obj/item/toy/tennis/blue{
@@ -371,6 +376,19 @@
 	alpha = 10
 	},
 /turf/open/floor/plasteel/f13/darkmarble,
+/area/f13/fb/bar)
+"bEf" = (
+/obj/structure/sign/painting/library{
+	pixel_x = 32
+	},
+/obj/effect/turf_decal/siding/wood{
+	dir = 4;
+	color = "#3B2B1A"
+	},
+/obj/structure/table/wood/settler,
+/turf/open/floor/wood_fancy{
+	color = "#779999"
+	},
 /area/f13/fb/bar)
 "bHr" = (
 /obj/structure/window/bronze{
@@ -607,6 +625,16 @@
 	icon_state = "darkrustysolid"
 	},
 /area/f13/wasteland/city/newboston/outdoors)
+"cZs" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 1;
+	color = "#3B2B1A"
+	},
+/obj/effect/turf_decal/siding/wood{
+	color = "#3B2B1A"
+	},
+/turf/open/floor/carpet/purple,
+/area/f13/fb/bar)
 "dez" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 4;
@@ -1025,6 +1053,16 @@
 /obj/structure/simple_door/room,
 /turf/open/floor/plasteel/freezer,
 /area/f13/fb/bar)
+"eSP" = (
+/obj/structure/chair/stool/retro/tan,
+/obj/effect/turf_decal/siding/wood{
+	dir = 4;
+	color = "#3B2B1A"
+	},
+/turf/open/floor/wood_fancy{
+	color = "#779999"
+	},
+/area/f13/fb/bar)
 "eYY" = (
 /obj/item/toy/tennis/blue{
 	density = 1;
@@ -1096,10 +1134,6 @@
 /area/f13/wasteland/city/newboston/outdoors)
 "fxb" = (
 /obj/structure/table/wood/settler,
-/obj/effect/turf_decal/siding/wood{
-	dir = 1;
-	color = "#3B2B1A"
-	},
 /turf/open/floor/wood_fancy{
 	color = "#779999"
 	},
@@ -1212,16 +1246,23 @@
 /turf/open/floor/carpet/royalblack,
 /area/f13/fb/bar)
 "ghq" = (
-/obj/structure/chair/sofa/corp/left{
-	dir = 8;
-	color = "pink"
-	},
-/obj/structure/sign/painting/library{
-	pixel_x = 32
-	},
 /obj/effect/turf_decal/siding/wood{
 	dir = 4;
 	color = "#3B2B1A"
+	},
+/obj/effect/turf_decal/siding/wood{
+	color = "#3B2B1A"
+	},
+/obj/machinery/light/small{
+	color = "#993311";
+	dir = 4;
+	light_color = "#993311";
+	light_power = 2;
+	light_range = 2;
+	pixel_y = 13
+	},
+/obj/structure/chair/sofa/corp/right{
+	dir = 1
 	},
 /turf/open/floor/wood_fancy{
 	color = "#779999"
@@ -1306,25 +1347,9 @@
 /turf/open/floor/carpet/purple,
 /area/f13/fb/bar)
 "gGC" = (
-/obj/structure/chair/sofa/corp/right{
-	dir = 8;
-	color = "pink"
-	},
-/obj/machinery/light/small{
-	color = "#993311";
-	dir = 4;
-	light_color = "#993311";
-	light_power = 2;
-	light_range = 2;
-	pixel_y = 13
-	},
-/obj/effect/turf_decal/siding/wood{
-	dir = 1;
-	color = "#3B2B1A"
-	},
-/obj/effect/turf_decal/siding/wood{
-	dir = 4;
-	color = "#3B2B1A"
+/obj/structure/table/wood/settler,
+/obj/structure/sign/painting/library{
+	pixel_x = 32
 	},
 /turf/open/floor/wood_fancy{
 	color = "#779999"
@@ -1540,15 +1565,18 @@
 /area/f13/wasteland/city/newboston/outdoors)
 "hov" = (
 /obj/effect/turf_decal/siding/wood{
-	dir = 8;
+	dir = 1;
+	color = "#3B2B1A"
+	},
+/obj/effect/turf_decal/siding/wood/corner{
+	dir = 4;
 	color = "#3B2B1A"
 	},
 /obj/effect/turf_decal/siding/wood{
+	dir = 4;
 	color = "#3B2B1A"
 	},
-/turf/open/floor/wood_fancy{
-	color = "#779999"
-	},
+/turf/open/floor/carpet/purple,
 /area/f13/fb/bar)
 "hox" = (
 /obj/machinery/light/small{
@@ -1905,6 +1933,7 @@
 	dir = 4;
 	color = "#3B2B1A"
 	},
+/obj/machinery/jukebox_online,
 /turf/open/floor/plasteel/f13/whitemarble{
 	color = "#333333"
 	},
@@ -1925,6 +1954,17 @@
 /obj/machinery/biogenerator,
 /obj/item/reagent_containers/glass/bucket/plastic,
 /turf/open/floor/plasteel/f13/darkmarble,
+/area/f13/fb/bar)
+"jxW" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 1;
+	color = "#3B2B1A"
+	},
+/obj/effect/turf_decal/siding/wood/corner{
+	dir = 8;
+	color = "#3B2B1A"
+	},
+/turf/open/floor/carpet/purple,
 /area/f13/fb/bar)
 "jJY" = (
 /obj/effect/decal/cleanable/glitter/blue{
@@ -2181,13 +2221,11 @@
 /turf/open/floor/circuit/telecomms/mainframe,
 /area/f13/wasteland/city/newboston/outdoors)
 "llj" = (
-/obj/structure/chair/sofa/corp/right{
-	dir = 4;
-	color = "pink"
-	},
 /obj/effect/turf_decal/siding/wood{
-	dir = 8;
 	color = "#3B2B1A"
+	},
+/obj/structure/chair/sofa/corp{
+	dir = 1
 	},
 /turf/open/floor/wood_fancy{
 	color = "#779999"
@@ -2316,10 +2354,6 @@
 	},
 /area/f13/fb/bar)
 "msx" = (
-/obj/effect/turf_decal/siding/wood{
-	dir = 4;
-	color = "#3B2B1A"
-	},
 /obj/machinery/light/small{
 	color = "#993311";
 	dir = 4;
@@ -2328,10 +2362,7 @@
 	light_range = 2;
 	pixel_y = 13
 	},
-/obj/machinery/jukebox_online,
-/turf/open/floor/wood_fancy{
-	color = "#779999"
-	},
+/turf/closed/wall/mineral/brick,
 /area/f13/fb/bar)
 "mBj" = (
 /obj/structure/mirror{
@@ -2436,10 +2467,6 @@
 	pixel_y = -2
 	},
 /obj/structure/chair/stool/retro/tan,
-/obj/effect/turf_decal/siding/wood{
-	dir = 1;
-	color = "#3B2B1A"
-	},
 /obj/effect/turf_decal/siding/wood{
 	color = "#3B2B1A"
 	},
@@ -2574,15 +2601,23 @@
 	},
 /area/f13/wasteland/city/newboston/outdoors)
 "oLR" = (
-/obj/item/kirbyplants/random,
 /obj/machinery/light/small{
 	color = "#993311";
-	dir = 8;
+	dir = 4;
 	light_color = "#993311";
 	light_power = 2;
 	light_range = 2;
 	pixel_y = 13
 	},
+/obj/effect/turf_decal/siding/wood{
+	dir = 1;
+	color = "#3B2B1A"
+	},
+/obj/effect/turf_decal/siding/wood{
+	dir = 4;
+	color = "#3B2B1A"
+	},
+/obj/structure/chair/sofa/corp/left,
 /turf/open/floor/wood_fancy{
 	color = "#779999"
 	},
@@ -2734,6 +2769,22 @@
 "pNr" = (
 /obj/item/storage/box/dice,
 /obj/structure/table/wood/settler,
+/turf/open/floor/wood_fancy{
+	color = "#779999"
+	},
+/area/f13/fb/bar)
+"pTf" = (
+/obj/item/kirbyplants/random{
+	pixel_y = 19
+	},
+/obj/machinery/light/small{
+	color = "#993311";
+	dir = 8;
+	light_color = "#993311";
+	light_power = 2;
+	light_range = 2;
+	pixel_y = 13
+	},
 /turf/open/floor/wood_fancy{
 	color = "#779999"
 	},
@@ -3267,6 +3318,21 @@
 	},
 /turf/open/floor/carpet/purple,
 /area/f13/fb/bar)
+"tDz" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 8;
+	color = "#3B2B1A"
+	},
+/obj/effect/turf_decal/siding/wood{
+	color = "#3B2B1A"
+	},
+/obj/structure/chair/sofa/corp/left{
+	dir = 1
+	},
+/turf/open/floor/wood_fancy{
+	color = "#779999"
+	},
+/area/f13/fb/bar)
 "tEH" = (
 /obj/effect/turf_decal/weather/dirt{
 	dir = 8
@@ -3280,23 +3346,10 @@
 /area/f13/fb/bar)
 "tPi" = (
 /obj/effect/turf_decal/siding/wood{
-	dir = 4;
+	dir = 1;
 	color = "#3B2B1A"
 	},
-/obj/effect/turf_decal/siding/wood{
-	color = "#3B2B1A"
-	},
-/obj/machinery/light/small{
-	color = "#993311";
-	dir = 4;
-	light_color = "#993311";
-	light_power = 2;
-	light_range = 2;
-	pixel_y = 13
-	},
-/turf/open/floor/wood_fancy{
-	color = "#779999"
-	},
+/turf/open/floor/carpet/purple,
 /area/f13/fb/bar)
 "tTr" = (
 /obj/effect/turf_decal/stripes/asteroid/line{
@@ -3373,14 +3426,6 @@
 	dir = 4;
 	color = "#3B2B1A"
 	},
-/obj/effect/turf_decal/siding/wood{
-	dir = 1;
-	color = "#3B2B1A"
-	},
-/obj/effect/turf_decal/siding/wood/corner{
-	dir = 4;
-	color = "#3B2B1A"
-	},
 /obj/effect/turf_decal/siding/wood/corner{
 	dir = 8;
 	color = "#3B2B1A"
@@ -3448,6 +3493,20 @@
 	pixel_x = -13
 	},
 /turf/open/floor/plasteel/freezer,
+/area/f13/fb/bar)
+"vpL" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 8;
+	color = "#3B2B1A"
+	},
+/obj/effect/turf_decal/siding/wood{
+	dir = 1;
+	color = "#3B2B1A"
+	},
+/obj/structure/chair/sofa/corp/right,
+/turf/open/floor/wood_fancy{
+	color = "#779999"
+	},
 /area/f13/fb/bar)
 "vsw" = (
 /obj/structure/table/wood/settler,
@@ -3611,7 +3670,11 @@
 /turf/open/floor/carpet/royalblack,
 /area/f13/fb/bar)
 "wlF" = (
-/obj/structure/chair/stool/retro/tan,
+/obj/effect/turf_decal/siding/wood{
+	dir = 1;
+	color = "#3B2B1A"
+	},
+/obj/structure/chair/sofa/corp,
 /turf/open/floor/wood_fancy{
 	color = "#779999"
 	},
@@ -3735,6 +3798,21 @@
 	},
 /turf/open/floor/carpet/purple,
 /area/f13/fb/bar)
+"wIu" = (
+/obj/machinery/light/floor{
+	light_color = "#993311";
+	color = "#993311";
+	alpha = 10
+	},
+/obj/effect/turf_decal/siding/wood{
+	dir = 8;
+	color = "#3B2B1A"
+	},
+/obj/structure/table/wood/settler,
+/turf/open/floor/wood_fancy{
+	color = "#779999"
+	},
+/area/f13/fb/bar)
 "wJC" = (
 /turf/closed{
 	icon_state = "black"
@@ -3844,10 +3922,6 @@
 	},
 /obj/structure/chair/stool/retro/tan,
 /obj/effect/turf_decal/siding/wood{
-	dir = 1;
-	color = "#3B2B1A"
-	},
-/obj/effect/turf_decal/siding/wood{
 	color = "#3B2B1A"
 	},
 /obj/machinery/light/floor{
@@ -3897,6 +3971,16 @@
 	tank_volume = 100000
 	},
 /turf/open/floor/plasteel/f13/darkmarble,
+/area/f13/fb/bar)
+"xKe" = (
+/obj/structure/table/wood/settler,
+/obj/effect/turf_decal/siding/wood{
+	dir = 8;
+	color = "#3B2B1A"
+	},
+/turf/open/floor/wood_fancy{
+	color = "#779999"
+	},
 /area/f13/fb/bar)
 "xNu" = (
 /obj/machinery/vending/hydronutrients,
@@ -9074,15 +9158,15 @@ xNF
 xNF
 xNF
 xNF
+tFy
+tFy
+tFy
+tFy
+tFy
+tFy
+tFy
+tFy
 xNF
-tFy
-tFy
-tFy
-tFy
-tFy
-tFy
-tFy
-tFy
 xNF
 xNF
 xNF
@@ -9145,7 +9229,6 @@ xNF
 xNF
 "}
 (45,1,1) = {"
-xNF
 xNF
 xNF
 xNF
@@ -9260,9 +9343,9 @@ xNF
 xNF
 xNF
 xNF
+xNF
 "}
 (46,1,1) = {"
-xNF
 xNF
 xNF
 xNF
@@ -9316,6 +9399,7 @@ pBI
 tFy
 bub
 vmu
+tFy
 tFy
 tFy
 tFy
@@ -9425,7 +9509,6 @@ xNF
 xNF
 xNF
 xNF
-xNF
 tFy
 ffh
 pBI
@@ -9435,6 +9518,7 @@ mVX
 tFy
 tFy
 miw
+cRl
 cRl
 cRl
 cRl
@@ -9542,7 +9626,6 @@ xNF
 xNF
 xNF
 xNF
-xNF
 tFy
 eaK
 pBI
@@ -9552,6 +9635,7 @@ aZn
 uvM
 tFy
 vsw
+iqW
 iqW
 iqW
 ycH
@@ -9659,7 +9743,6 @@ xNF
 xNF
 xNF
 xNF
-xNF
 tFy
 mBj
 xQu
@@ -9670,6 +9753,7 @@ sGq
 tFy
 dga
 dez
+iqW
 kuK
 hTW
 hnl
@@ -9776,7 +9860,6 @@ xNF
 xNF
 xNF
 xNF
-xNF
 tFy
 tFy
 tFy
@@ -9787,6 +9870,7 @@ tFy
 cVe
 tFy
 aoR
+tFy
 tFy
 tFy
 xCL
@@ -9893,7 +9977,6 @@ xNF
 xNF
 xNF
 xNF
-xNF
 tFy
 eJV
 msa
@@ -9904,6 +9987,7 @@ okV
 gOe
 gHF
 okV
+bhg
 tFy
 kJh
 gCH
@@ -10010,7 +10094,6 @@ xNF
 xNF
 xNF
 xNF
-xNF
 tFy
 eJV
 dCS
@@ -10021,6 +10104,7 @@ cIc
 cIc
 dQs
 wxN
+cZs
 tFy
 glE
 dEp
@@ -10126,7 +10210,6 @@ xNF
 xNF
 xNF
 xNF
-xNF
 tFy
 tFy
 tFy
@@ -10138,6 +10221,7 @@ tFy
 tFy
 pbh
 iku
+jxW
 nuu
 goB
 goB
@@ -10243,7 +10327,6 @@ xNF
 xNF
 xNF
 xNF
-xNF
 tFy
 qAX
 kMU
@@ -10255,6 +10338,7 @@ tot
 tFy
 gyr
 wxN
+tPi
 xyb
 goB
 goB
@@ -10360,7 +10444,6 @@ xNF
 xNF
 xNF
 xNF
-xNF
 tFy
 aDr
 cKA
@@ -10372,6 +10455,7 @@ hdN
 tFy
 wdE
 wxN
+hov
 uOS
 wyJ
 sdG
@@ -10477,7 +10561,6 @@ xNF
 xNF
 xNF
 xNF
-xNF
 tFy
 agk
 wxN
@@ -10488,6 +10571,7 @@ lSC
 lSC
 tFy
 aOt
+wxN
 wxN
 wxN
 wxN
@@ -10594,7 +10678,6 @@ xNF
 xNF
 xNF
 xNF
-xNF
 tFy
 ygG
 yeQ
@@ -10606,6 +10689,7 @@ okV
 qxm
 bNh
 irF
+wxN
 wUh
 wxN
 iKD
@@ -10698,7 +10782,6 @@ xNF
 xNF
 xNF
 xNF
-xNF
 aJA
 wJC
 vzp
@@ -10720,6 +10803,7 @@ tFy
 tFy
 mRP
 hxR
+wxN
 wxN
 wxN
 wxN
@@ -10809,7 +10893,6 @@ xNF
 xNF
 xNF
 xNF
-xNF
 wJC
 vzp
 vzp
@@ -10838,14 +10921,15 @@ tFy
 mRP
 iku
 wxN
-eyp
-wsB
-wsB
-kBm
-wsB
-wsB
-wsB
-tyV
+wxN
+wxN
+wxN
+wxN
+wxN
+wxN
+wxN
+wxN
+lel
 maZ
 maZ
 maZ
@@ -10926,7 +11010,6 @@ xNF
 xNF
 xNF
 xNF
-xNF
 vzp
 hqa
 hqa
@@ -10954,15 +11037,16 @@ okV
 jmf
 kNZ
 wxN
-wlF
-sXl
-gec
-gec
-gec
-gec
-kjJ
-mGF
-weZ
+wxN
+eyp
+wsB
+wsB
+wsB
+kBm
+wsB
+wsB
+wsB
+tyV
 maZ
 bYz
 maZ
@@ -11043,7 +11127,6 @@ xNF
 xNF
 xNF
 xNF
-xNF
 vzp
 hqa
 aBY
@@ -11071,14 +11154,15 @@ cIc
 aEB
 klQ
 cIc
-msx
-qKK
-iYl
-hoE
-iYl
-iYl
-iYl
-iYl
+eSP
+sXl
+gec
+gec
+gec
+gec
+gec
+kjJ
+mGF
 weZ
 maZ
 maZ
@@ -11160,7 +11244,6 @@ xNF
 xNF
 xNF
 xNF
-xNF
 vzp
 hqa
 hqa
@@ -11188,15 +11271,16 @@ tFy
 tFy
 adu
 adu
-tFy
-bpJ
-sep
-iYl
-sep
+msx
+qKK
 iYl
 iYl
-sep
-hfS
+hoE
+iYl
+iYl
+iYl
+iYl
+weZ
 jiT
 dmQ
 dmQ
@@ -11277,7 +11361,6 @@ xNF
 xNF
 xNF
 xNF
-xNF
 vzp
 hqa
 hqa
@@ -11299,21 +11382,22 @@ wJX
 hqa
 hqa
 hqa
-hqa
 vzp
 tFy
-oLR
+pTf
+wxN
 wxN
 wxN
 tFy
-akT
-wjZ
-iky
-qOJ
-qOJ
-fzC
-bNC
-weZ
+bpJ
+sep
+iYl
+iYl
+sep
+iYl
+iYl
+sep
+hfS
 tFy
 lac
 ekX
@@ -11394,7 +11478,6 @@ xNF
 xNF
 xNF
 xNF
-xNF
 vzp
 hqa
 hqa
@@ -11416,21 +11499,22 @@ hqa
 hqa
 qdx
 hqa
-hqa
 vzp
 tFy
-wxN
-hxR
-wxN
+vpL
+wIu
+xKe
+tDz
 tFy
-dLD
-tFy
-lvh
-pXC
-sbf
-tFy
-tFy
-hHE
+akT
+wjZ
+iYl
+iky
+qOJ
+qOJ
+fzC
+bNC
+weZ
 hrM
 vCx
 wxN
@@ -11511,7 +11595,6 @@ xNF
 xNF
 xNF
 xNF
-xNF
 vzp
 hqa
 dRv
@@ -11528,7 +11611,6 @@ hqa
 hqa
 hqa
 vzp
-hqa
 hqa
 hqa
 hqa
@@ -11536,18 +11618,20 @@ hqa
 hqa
 vzp
 tFy
-bhg
+wlF
+fxb
+fxb
 llj
-hov
 tFy
-sTj
-jdE
-rWC
-rWC
-rWC
-lqG
-seF
-vJz
+dLD
+tFy
+sbf
+lvh
+pXC
+sbf
+tFy
+tFy
+hHE
 hrM
 ttV
 efh
@@ -11626,7 +11710,6 @@ xNF
 xNF
 xNF
 xNF
-xNF
 wJC
 vzp
 vzp
@@ -11650,21 +11733,22 @@ qdx
 dRv
 hqa
 hqa
-hqa
 vzp
 tFy
-fxb
+wlF
 pNr
-lel
+fxb
+llj
 tFy
-wTV
-rWC
-bAD
-rWC
+sTj
+jdE
 rWC
 rWC
-bAD
-xFk
+rWC
+rWC
+lqG
+seF
+vJz
 hrM
 hgF
 ioo
@@ -11743,7 +11827,6 @@ xNF
 xNF
 xNF
 xNF
-xNF
 vzp
 hqa
 hqa
@@ -11767,21 +11850,22 @@ hqa
 hqa
 hqa
 hqa
-hqa
 vzp
 tFy
+oLR
+bEf
 gGC
 ghq
-tPi
 tFy
-sbf
-rWC
-ifd
-xAW
-qGK
+wTV
 rWC
 rWC
-jnG
+bAD
+rWC
+rWC
+rWC
+bAD
+xFk
 hrM
 nJh
 qms
@@ -11860,7 +11944,6 @@ xNF
 xNF
 xNF
 xNF
-xNF
 vzp
 hqa
 qdx
@@ -11884,21 +11967,22 @@ hqa
 aBY
 hqa
 hqa
-hqa
 vzp
 tFy
 tFy
 tFy
 tFy
 tFy
-gzb
-rWC
-oNR
-qlV
-aEx
+tFy
+sbf
 rWC
 rWC
-jYx
+ifd
+xAW
+qGK
+rWC
+rWC
+jnG
 tFy
 tFy
 tFy
@@ -11977,7 +12061,6 @@ xNF
 xNF
 xNF
 xNF
-xNF
 vzp
 hqa
 hqa
@@ -12001,21 +12084,22 @@ hqa
 cwC
 hqa
 hqa
-hqa
 vzp
 xNF
 xNF
 xNF
 xNF
+xNF
 tFy
-gBo
+gzb
 rWC
 rWC
+oNR
+qlV
+aEx
 rWC
 rWC
-rWC
-rWC
-gWU
+jYx
 tFy
 xNF
 xNF
@@ -12094,7 +12178,6 @@ xNF
 xNF
 xNF
 xNF
-xNF
 vzp
 hqa
 hqa
@@ -12118,21 +12201,22 @@ hqa
 hqa
 hqa
 hqa
-hqa
 vzp
 xNF
 xNF
 xNF
 xNF
+xNF
 tFy
-sbf
-rWC
-bAD
+gBo
 rWC
 rWC
 rWC
-bAD
-xNu
+rWC
+rWC
+rWC
+rWC
+gWU
 tFy
 xNF
 xNF
@@ -12211,7 +12295,6 @@ xNF
 xNF
 xNF
 xNF
-xNF
 vzp
 hqa
 hqa
@@ -12235,21 +12318,22 @@ hqa
 dRv
 hqa
 hqa
-hqa
+vzp
 vzp
 xNF
 xNF
 xNF
 xNF
 tFy
-edI
-nPu
-uME
-oaA
-wUe
-wUe
+sbf
 rWC
-wwk
+rWC
+bAD
+rWC
+rWC
+rWC
+bAD
+xNu
 tFy
 xNF
 xNF
@@ -12328,7 +12412,6 @@ xNF
 xNF
 xNF
 xNF
-xNF
 vzp
 hqa
 dRv
@@ -12359,14 +12442,15 @@ xNF
 xNF
 xNF
 tFy
-tFy
-tFy
-tFy
-tFy
-tFy
-tFy
-hHE
-tFy
+edI
+nPu
+rWC
+uME
+oaA
+wUe
+wUe
+rWC
+wwk
 tFy
 xNF
 xNF
@@ -12445,7 +12529,6 @@ xNF
 xNF
 xNF
 xNF
-xNF
 vzp
 hqa
 hqa
@@ -12475,14 +12558,15 @@ xNF
 xNF
 xNF
 xNF
-xNF
-xNF
-xNF
-xNF
 tFy
-mKq
-dig
-uie
+tFy
+tFy
+tFy
+tFy
+tFy
+tFy
+tFy
+hHE
 tFy
 xNF
 xNF
@@ -12562,7 +12646,6 @@ xNF
 xNF
 xNF
 xNF
-xNF
 vzp
 hqa
 hqa
@@ -12596,9 +12679,10 @@ xNF
 xNF
 xNF
 xNF
+xNF
 tFy
-gJF
-uie
+mKq
+dig
 uie
 tFy
 xNF
@@ -12679,7 +12763,6 @@ xNF
 xNF
 xNF
 xNF
-xNF
 vzp
 hqa
 hqa
@@ -12713,10 +12796,11 @@ xNF
 xNF
 xNF
 xNF
+xNF
 tFy
-wCz
-paz
-ajq
+gJF
+uie
+uie
 tFy
 xNF
 xNF
@@ -12796,7 +12880,6 @@ xNF
 xNF
 xNF
 xNF
-xNF
 vzp
 cwC
 hqa
@@ -12830,10 +12913,11 @@ xNF
 xNF
 xNF
 xNF
+xNF
 tFy
-tFy
-tFy
-tFy
+wCz
+paz
+ajq
 tFy
 xNF
 xNF
@@ -12913,7 +12997,6 @@ xNF
 xNF
 xNF
 xNF
-xNF
 vzp
 hqa
 hqa
@@ -12948,10 +13031,11 @@ xNF
 xNF
 xNF
 xNF
-xNF
-xNF
-xNF
-xNF
+tFy
+tFy
+tFy
+tFy
+tFy
 xNF
 xNF
 xNF
@@ -13030,7 +13114,6 @@ xNF
 xNF
 xNF
 xNF
-xNF
 vzp
 hqa
 qdx
@@ -13056,6 +13139,7 @@ hqa
 hqa
 hqa
 vzp
+xNF
 xNF
 xNF
 xNF
@@ -13147,7 +13231,6 @@ xNF
 xNF
 xNF
 xNF
-xNF
 vzp
 hqa
 hqa
@@ -13173,6 +13256,7 @@ hqa
 hqa
 hqa
 vzp
+xNF
 xNF
 xNF
 xNF
@@ -13264,7 +13348,6 @@ xNF
 xNF
 xNF
 xNF
-xNF
 ohS
 ohS
 vzp
@@ -13290,6 +13373,7 @@ hqa
 hqa
 hqa
 vzp
+xNF
 xNF
 xNF
 xNF
@@ -13383,7 +13467,6 @@ xNF
 xNF
 xNF
 xNF
-xNF
 vzp
 hqa
 hqa
@@ -13472,9 +13555,9 @@ xNF
 xNF
 xNF
 xNF
+xNF
 "}
 (82,1,1) = {"
-xNF
 xNF
 xNF
 xNF
@@ -13589,9 +13672,9 @@ xNF
 xNF
 xNF
 xNF
+xNF
 "}
 (83,1,1) = {"
-xNF
 xNF
 xNF
 xNF
@@ -13706,9 +13789,9 @@ xNF
 xNF
 xNF
 xNF
+xNF
 "}
 (84,1,1) = {"
-xNF
 xNF
 xNF
 xNF
@@ -13823,9 +13906,9 @@ xNF
 xNF
 xNF
 xNF
+xNF
 "}
 (85,1,1) = {"
-xNF
 xNF
 xNF
 xNF
@@ -13940,9 +14023,9 @@ xNF
 xNF
 xNF
 xNF
+xNF
 "}
 (86,1,1) = {"
-xNF
 xNF
 xNF
 xNF
@@ -14057,9 +14140,9 @@ xNF
 xNF
 xNF
 xNF
+xNF
 "}
 (87,1,1) = {"
-xNF
 xNF
 xNF
 xNF
@@ -14174,9 +14257,9 @@ xNF
 xNF
 xNF
 xNF
+xNF
 "}
 (88,1,1) = {"
-xNF
 xNF
 xNF
 xNF
@@ -14291,9 +14374,9 @@ xNF
 xNF
 xNF
 xNF
+xNF
 "}
 (89,1,1) = {"
-xNF
 xNF
 xNF
 xNF
@@ -14408,6 +14491,7 @@ xNF
 xNF
 xNF
 xNF
+xNF
 "}
 (90,1,1) = {"
 xNF
@@ -14439,25 +14523,25 @@ xNF
 xNF
 xNF
 xNF
+vzp
+hqa
+hqa
+hqa
+hqa
+hqa
+hqa
+hqa
+hqa
+hqa
+hqa
+hqa
+hqa
+hqa
+hqa
+hqa
+hqa
+vzp
 xNF
-vzp
-hqa
-hqa
-hqa
-hqa
-hqa
-hqa
-hqa
-hqa
-hqa
-hqa
-hqa
-hqa
-hqa
-hqa
-hqa
-hqa
-vzp
 xNF
 xNF
 xNF
@@ -14556,25 +14640,25 @@ xNF
 xNF
 xNF
 xNF
+vzp
+hqa
+hqa
+hqa
+hqa
+hqa
+hqa
+hqa
+hqa
+hqa
+hqa
+hqa
+hqa
+vzp
+vzp
+vzp
+vzp
+vzp
 xNF
-vzp
-hqa
-hqa
-hqa
-hqa
-hqa
-hqa
-hqa
-hqa
-hqa
-hqa
-hqa
-hqa
-vzp
-vzp
-vzp
-vzp
-vzp
 xNF
 xNF
 xNF
@@ -14673,20 +14757,20 @@ xNF
 xNF
 xNF
 xNF
+ohS
+ohS
+ohS
+ohS
+ohS
+ohS
+ohS
+ohS
+ohS
+ohS
+ohS
+ohS
+ohS
 xNF
-ohS
-ohS
-ohS
-ohS
-ohS
-ohS
-ohS
-ohS
-ohS
-ohS
-ohS
-ohS
-ohS
 xNF
 xNF
 xNF

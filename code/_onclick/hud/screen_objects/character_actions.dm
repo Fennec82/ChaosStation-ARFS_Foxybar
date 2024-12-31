@@ -493,7 +493,7 @@
 	name = "cuphand on people!"
 	icon = 'icons/mob/screen_gen.dmi'
 	icon_state = "cuphand"
-	screen_loc = "EAST-1:4, SOUTH+4:12"
+	screen_loc = "EAST-1:4, SOUTH+4: 8"
 
 /atom/movable/screen/cuphand_hud_button/Click(location,control,params)
 	var/mob/living/carbon/human/H = usr
@@ -501,6 +501,21 @@
 		to_chat(usr, span_alert("Sorry! You've gotta be a fully spawned in character with hopes and dreams to use this!"))
 		return
 	H.emote("cuphand")
+
+////////////////////////////////////////////////////////////
+/// Beans button
+/atom/movable/screen/beans_hud_button
+	name = "bean on people!"
+	icon = 'icons/mob/screen_gen.dmi'
+	icon_state = "beans"
+	screen_loc = "EAST-2:4, SOUTH+4:12"
+
+/atom/movable/screen/beans_hud_button/Click(location,control,params)
+	var/mob/living/carbon/human/H = usr
+	if(!ishuman(usr))
+		to_chat(usr, span_alert("Sorry! You've gotta be a fully spawned in character with hopes and dreams to use this!"))
+		return
+	H.emote("beans")
 
 ////////////////////////////////////////////////////////////
 /// Tend button

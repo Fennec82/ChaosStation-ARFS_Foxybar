@@ -450,6 +450,10 @@
 	cuphand_hud_button.hud = src
 	infodisplay += cuphand_hud_button
 
+	beans_hud_button = new /atom/movable/screen/beans_hud_button()
+	beans_hud_button.hud = src
+	infodisplay += beans_hud_button
+
 	tend_hud_button = new /atom/movable/screen/tend_hud_button()
 	tend_hud_button.hud = src
 	infodisplay += tend_hud_button

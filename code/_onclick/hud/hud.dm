@@ -85,6 +85,7 @@ GLOBAL_LIST_INIT(available_ui_styles, list(
 	var/atom/movable/screen/tail_hud_button
 	var/atom/movable/screen/cuphand_hud_button
 	var/atom/movable/screen/beans_hud_button
+	var/atom/movable/screen/private_panel_button
 	var/atom/movable/screen/tend_hud_button
 	var/atom/movable/screen/butt_hud_button
 

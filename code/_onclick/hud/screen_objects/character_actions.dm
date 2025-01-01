@@ -443,6 +443,51 @@
 	H.emote("kiss")
 
 ////////////////////////////////////////////////////////////
+/// Private panel button
+/atom/movable/screen/private_panel_button
+	name = "fool with your privates!"
+	icon = 'icons/mob/screen_gen.dmi'
+	icon_state = "privatepanel"
+	screen_loc = "EAST-0:-4, SOUTH+3:-3"
+
+/atom/movable/screen/private_panel_button/Click(location,control,params)
+	var/mob/living/carbon/human/H = usr
+	if(!ishuman(usr))
+		to_chat(usr, span_alert("Sorry! You've gotta be a fully spawned in character with hopes and dreams to use this!"))
+		return
+	H.toggle_genitals()
+
+////////////////////////////////////////////////////////////
+/// give button
+/atom/movable/screen/give_button
+	name = "give somebody something!"
+	icon = 'icons/mob/screen_gen.dmi'
+	icon_state = "give"
+	screen_loc = "CENTER+1:15,SOUTH+1:3"
+
+/atom/movable/screen/give_button/Click(location,control,params)
+	var/mob/living/carbon/human/H = usr
+	if(!ishuman(usr))
+		to_chat(usr, span_alert("Sorry! You've gotta be a fully spawned in character with hopes and dreams to use this!"))
+		return
+	H.give()
+
+////////////////////////////////////////////////////////////
+/// reload button
+/atom/movable/screen/reload_button
+	name = "reload a firearm!"
+	icon = 'icons/mob/screen_gen.dmi'
+	icon_state = "reload"
+	screen_loc = "CENTER+2:11,SOUTH+1:3"
+
+/atom/movable/screen/reload_button/Click(location,control,params)
+	var/mob/living/carbon/human/H = usr
+	if(!ishuman(usr))
+		to_chat(usr, span_alert("Sorry! You've gotta be a fully spawned in character with hopes and dreams to use this!"))
+		return
+	H.ReloadGun()
+
+////////////////////////////////////////////////////////////
 /// Bite button
 /atom/movable/screen/bite_hud_button
 	name = "bite on people!"
@@ -493,7 +538,7 @@
 	name = "cuphand on people!"
 	icon = 'icons/mob/screen_gen.dmi'
 	icon_state = "cuphand"
-	screen_loc = "EAST-1:4, SOUTH+4: 8"
+	screen_loc = "EAST-1:4, SOUTH+4: 12"
 
 /atom/movable/screen/cuphand_hud_button/Click(location,control,params)
 	var/mob/living/carbon/human/H = usr
@@ -508,7 +553,7 @@
 	name = "bean on people!"
 	icon = 'icons/mob/screen_gen.dmi'
 	icon_state = "beans"
-	screen_loc = "EAST-2:4, SOUTH+4:12"
+	screen_loc = "EAST-1:4, SOUTH+4:8"
 
 /atom/movable/screen/beans_hud_button/Click(location,control,params)
 	var/mob/living/carbon/human/H = usr
@@ -523,7 +568,7 @@
 	name = "tend on people!"
 	icon = 'icons/mob/screen_gen.dmi'
 	icon_state = "tend"
-	screen_loc = "EAST-1:4, SOUTH+4:1"
+	screen_loc = "EAST-1:4, SOUTH+5:1"
 
 /atom/movable/screen/tend_hud_button/Click(location,control,params)
 	var/mob/living/carbon/human/H = usr

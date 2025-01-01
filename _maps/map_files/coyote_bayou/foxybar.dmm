@@ -1672,31 +1672,6 @@
 	name = "dirty floor"
 	},
 /area/f13/fb/bar)
-"hIM" = (
-/obj/structure/curtain{
-	color = "#c40e0e"
-	},
-/obj/structure/stairs/east{
-	color = "#A47449";
-	dir = 8;
-	plane = -7;
-	opacity = 1
-	},
-/obj/structure/railing{
-	color = "#A47449";
-	layer = 4;
-	pixel_y = -2;
-	plane = -6
-	},
-/obj/structure/railing{
-	color = "#A47449";
-	dir = 1;
-	plane = -6
-	},
-/turf/open/floor/wood_fancy{
-	color = "#779999"
-	},
-/area/f13/fb/bar)
 "hJc" = (
 /obj/effect/turf_decal/siding/wood{
 	color = "#3B2B1A"
@@ -2170,24 +2145,6 @@
 /obj/item/chisel,
 /obj/effect/turf_decal/siding/wood{
 	color = "#3B2B1A"
-	},
-/turf/open/floor/wood_fancy{
-	color = "#779999"
-	},
-/area/f13/fb/bar)
-"lac" = (
-/obj/structure/curtain{
-	color = "#c40e0e"
-	},
-/obj/structure/railing{
-	color = "#A47449";
-	layer = 4;
-	pixel_y = -2;
-	plane = -6
-	},
-/obj/structure/stairs/east{
-	color = "#A47449";
-	plane = -7
 	},
 /turf/open/floor/wood_fancy{
 	color = "#779999"
@@ -3761,26 +3718,6 @@
 	icon_state = "darkrustysolid"
 	},
 /area/f13/wasteland/city/newboston/outdoors)
-"wGw" = (
-/obj/structure/curtain{
-	color = "#c40e0e"
-	},
-/obj/structure/stairs/east{
-	color = "#A47449";
-	dir = 8;
-	plane = -7;
-	opacity = 1
-	},
-/obj/structure/railing{
-	color = "#A47449";
-	layer = 4;
-	pixel_y = -2;
-	plane = -6
-	},
-/turf/open/floor/wood_fancy{
-	color = "#779999"
-	},
-/area/f13/fb/bar)
 "wHw" = (
 /obj/item/lipstick/random{
 	pixel_y = 10;
@@ -3891,29 +3828,6 @@
 	color = "#666666"
 	},
 /area/f13/wasteland/city/newboston/outdoors)
-"xvv" = (
-/obj/structure/curtain{
-	color = "#c40e0e"
-	},
-/obj/structure/railing{
-	color = "#A47449";
-	layer = 4;
-	pixel_y = -2;
-	plane = -6
-	},
-/obj/structure/railing{
-	color = "#A47449";
-	dir = 1;
-	plane = -6
-	},
-/obj/structure/stairs/east{
-	color = "#A47449";
-	plane = -7
-	},
-/turf/open/floor/wood_fancy{
-	color = "#779999"
-	},
-/area/f13/fb/bar)
 "xyb" = (
 /obj/structure/railing{
 	color = "#A47449";
@@ -9995,9 +9909,9 @@ imt
 tFy
 fDd
 tFy
-wGw
+hrM
 hWE
-hIM
+hrM
 tFy
 pxC
 oQi
@@ -11399,9 +11313,9 @@ iYl
 sep
 hfS
 tFy
-lac
+hrM
 ekX
-xvv
+hrM
 tFy
 ouY
 mLV

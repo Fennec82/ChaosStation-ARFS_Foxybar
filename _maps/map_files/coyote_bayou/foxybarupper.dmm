@@ -181,9 +181,11 @@
 /turf/open/indestructible/cobble/dark,
 /area/f13/fb/bar)
 "bs" = (
-/obj/structure/curtain{
-	color = "#c40e0e";
-	open = 0
+/obj/structure/simple_door/room{
+	name = "dice room"
+	},
+/obj/item/lock_bolt{
+	dir = 4
 	},
 /turf/open/floor/wood_common{
 	color = "#779999"
@@ -438,9 +440,6 @@
 	},
 /obj/effect/turf_decal/siding/wood{
 	dir = 8;
-	color = "#3B2B1A"
-	},
-/obj/effect/turf_decal/siding/wood{
 	color = "#3B2B1A"
 	},
 /turf/open/transparent/glass{
@@ -910,11 +909,15 @@
 /turf/open/floor/plasteel/freezer,
 /area/f13/fb/bar)
 "jJ" = (
-/obj/structure/decoration/sign{
-	icon_state = "vault_level2";
-	pixel_y = 30
+/obj/effect/turf_decal/siding/wood{
+	dir = 4;
+	color = "#3B2B1A"
 	},
-/turf/open/floor/carpet/black,
+/turf/open/transparent/glass{
+	color = "#BB3333";
+	light_color = "#880000";
+	light_power = 0.5
+	},
 /area/f13/fb/bar)
 "jO" = (
 /obj/effect/decal/cleanable/dirt,
@@ -1532,14 +1535,8 @@
 	},
 /area/f13/fb/bar)
 "oZ" = (
-/obj/structure/railing{
-	color = "#A47449";
-	dir = 1
-	},
-/obj/structure/railing{
-	color = "#A47449";
-	layer = 4;
-	pixel_y = -2
+/obj/structure/rug/carpet4{
+	pixel_x = -17
 	},
 /turf/open/floor/wood_common{
 	color = "#779999"
@@ -1963,11 +1960,23 @@
 	},
 /area/f13/caves)
 "sE" = (
-/obj/structure/curtain{
-	color = "#c40e0e"
+/obj/effect/turf_decal/siding/wood{
+	dir = 4;
+	color = "#3B2B1A"
 	},
-/obj/structure/window/fulltile/civ/windowclear,
-/turf/open/floor/wood_common,
+/obj/machinery/light/small{
+	color = "#444499";
+	dir = 4;
+	light_color = "#444499";
+	light_power = 2;
+	light_range = 2;
+	pixel_y = 13
+	},
+/turf/open/transparent/glass{
+	color = "#BB3333";
+	light_color = "#880000";
+	light_power = 0.5
+	},
 /area/f13/fb/bar)
 "tg" = (
 /obj/structure/railing{
@@ -2271,29 +2280,30 @@
 	color = "#A47449";
 	dir = 4
 	},
-/obj/machinery/light/small{
-	color = "#444499";
-	light_color = "#444499";
-	light_power = 2;
-	light_range = 2;
-	pixel_y = 0
+/obj/structure/railing{
+	color = "#A47449";
+	layer = 4;
+	pixel_y = -2
 	},
-/obj/structure/curtain{
-	color = "#c40e0e";
-	open = 0
+/obj/effect/turf_decal/siding/wood{
+	dir = 4;
+	color = "#3B2B1A"
 	},
-/turf/open/floor/wood_common{
-	color = "#779999"
+/obj/effect/turf_decal/siding/wood{
+	color = "#3B2B1A"
+	},
+/turf/open/transparent/glass{
+	color = "#BB3333";
+	light_color = "#880000";
+	light_power = 0.5
 	},
 /area/f13/fb/bar)
 "wk" = (
-/obj/structure/railing{
-	color = "#A47449";
-	dir = 4
+/obj/structure/simple_door/room{
+	name = "dice room"
 	},
-/obj/structure/curtain{
-	color = "#c40e0e";
-	open = 0
+/obj/item/lock_bolt{
+	dir = 8
 	},
 /turf/open/floor/wood_common{
 	color = "#779999"
@@ -2371,10 +2381,16 @@
 "wP" = (
 /obj/structure/railing{
 	color = "#A47449";
-	dir = 1
+	dir = 4
 	},
-/turf/open/floor/wood_common{
-	color = "#779999"
+/obj/effect/turf_decal/siding/wood{
+	dir = 4;
+	color = "#3B2B1A"
+	},
+/turf/open/transparent/glass{
+	color = "#BB3333";
+	light_color = "#880000";
+	light_power = 0.5
 	},
 /area/f13/fb/bar)
 "xd" = (
@@ -2925,19 +2941,14 @@
 	},
 /area/f13/caves)
 "BM" = (
-/obj/machinery/light/small{
-	color = "#444499";
-	light_color = "#444499";
-	light_power = 2;
-	light_range = 2;
-	pixel_y = 0
+/obj/effect/turf_decal/siding/wood{
+	dir = 8;
+	color = "#3B2B1A"
 	},
-/obj/structure/curtain{
-	color = "#c40e0e";
-	open = 0
-	},
-/turf/open/floor/wood_common{
-	color = "#779999"
+/turf/open/transparent/glass{
+	color = "#BB3333";
+	light_color = "#880000";
+	light_power = 0.5
 	},
 /area/f13/fb/bar)
 "BS" = (
@@ -3070,6 +3081,17 @@
 	pixel_y = 25
 	},
 /turf/open/floor/plasteel/freezer,
+/area/f13/fb/bar)
+"DO" = (
+/obj/effect/turf_decal/siding/wood/corner{
+	dir = 8;
+	color = "#3B2B1A"
+	},
+/turf/open/transparent/glass{
+	color = "#BB3333";
+	light_color = "#880000";
+	light_power = 0.5
+	},
 /area/f13/fb/bar)
 "DS" = (
 /obj/structure/table/glass,
@@ -4077,10 +4099,20 @@
 "Pb" = (
 /obj/structure/railing{
 	color = "#A47449";
-	dir = 4
+	layer = 4;
+	pixel_y = -2
 	},
-/turf/open/floor/wood_common{
-	color = "#779999"
+/obj/effect/turf_decal/siding/wood{
+	dir = 4;
+	color = "#3B2B1A"
+	},
+/obj/effect/turf_decal/siding/wood{
+	color = "#3B2B1A"
+	},
+/turf/open/transparent/glass{
+	color = "#BB3333";
+	light_color = "#880000";
+	light_power = 0.5
 	},
 /area/f13/fb/bar)
 "Pc" = (
@@ -4272,11 +4304,23 @@
 /turf/open/floor/carpet/black,
 /area/f13/fb/bar)
 "QO" = (
-/obj/structure/railing{
-	color = "#A47449";
-	dir = 1
+/obj/effect/turf_decal/siding/wood{
+	dir = 8;
+	color = "#3B2B1A"
 	},
-/turf/open/transparent/openspace,
+/obj/machinery/light/small{
+	color = "#444499";
+	dir = 8;
+	light_color = "#444499";
+	light_power = 2;
+	light_range = 2;
+	pixel_y = 13
+	},
+/turf/open/transparent/glass{
+	color = "#BB3333";
+	light_color = "#880000";
+	light_power = 0.5
+	},
 /area/f13/fb/bar)
 "QT" = (
 /obj/effect/turf_decal/siding/wood/corner{
@@ -4297,9 +4341,6 @@
 	},
 /obj/effect/turf_decal/siding/wood{
 	dir = 4;
-	color = "#3B2B1A"
-	},
-/obj/effect/turf_decal/siding/wood{
 	color = "#3B2B1A"
 	},
 /turf/open/transparent/glass{
@@ -4743,6 +4784,17 @@
 	color = "#C6321F"
 	},
 /area/f13/fb/bar)
+"Vz" = (
+/obj/effect/turf_decal/siding/wood/corner{
+	dir = 2;
+	color = "#3B2B1A"
+	},
+/turf/open/transparent/glass{
+	color = "#BB3333";
+	light_color = "#880000";
+	light_power = 0.5
+	},
+/area/f13/fb/bar)
 "VG" = (
 /turf/open/floor/wood_common{
 	color = "#779999"
@@ -4847,11 +4899,20 @@
 "WP" = (
 /obj/structure/railing{
 	color = "#A47449";
-	dir = 4
+	layer = 4;
+	pixel_y = -2
 	},
-/obj/item/kirbyplants/random,
-/turf/open/floor/wood_common{
-	color = "#779999"
+/obj/effect/turf_decal/siding/wood{
+	dir = 8;
+	color = "#3B2B1A"
+	},
+/obj/effect/turf_decal/siding/wood{
+	color = "#3B2B1A"
+	},
+/turf/open/transparent/glass{
+	color = "#BB3333";
+	light_color = "#880000";
+	light_power = 0.5
 	},
 /area/f13/fb/bar)
 "WQ" = (
@@ -11108,9 +11169,9 @@ Oq
 MX
 ln
 il
-tg
+VG
 oZ
-tg
+VG
 bP
 Qe
 Qe
@@ -11329,7 +11390,7 @@ DJ
 Rv
 il
 dm
-jJ
+zr
 zr
 zr
 zr
@@ -11343,8 +11404,8 @@ il
 il
 il
 wk
-wk
-wd
+tH
+tH
 bP
 Qe
 Qe
@@ -11456,13 +11517,13 @@ cQ
 rx
 rx
 dD
-tH
+BM
+BM
+QO
+WP
 Qe
 Qe
-Qe
-Qe
-Qe
-sE
+bP
 Qe
 Qe
 Qe
@@ -11572,14 +11633,14 @@ XK
 XK
 XK
 XK
-aM
-tH
+Vz
+jJ
+wP
+wP
+wd
 Qe
 Qe
-Qe
-Qe
-Qe
-sE
+bP
 Qe
 Qe
 Qe
@@ -11696,7 +11757,7 @@ Qe
 Qe
 Qe
 Qe
-sE
+bP
 Qe
 Qe
 Qe
@@ -11813,7 +11874,7 @@ Qe
 Qe
 Qe
 Qe
-sE
+bP
 Qe
 Qe
 Qe
@@ -11925,12 +11986,12 @@ XK
 XK
 aM
 tH
+tg
+tg
+tg
 Qe
 Qe
-Qe
-Qe
-Qe
-sE
+bP
 Qe
 Qe
 Qe
@@ -12040,14 +12101,14 @@ XK
 XK
 XK
 XK
-aM
-tH
+DO
+BM
+BM
+BM
+WP
 Qe
 Qe
-Qe
-Qe
-Qe
-sE
+bP
 Qe
 Qe
 Qe
@@ -12158,13 +12219,13 @@ NT
 mu
 UD
 QT
-tH
-Qe
-Qe
-tg
-tg
-tg
+jJ
+jJ
 sE
+Pb
+tg
+tg
+bP
 Qe
 Qe
 Qe
@@ -12279,8 +12340,8 @@ il
 il
 il
 bs
-bs
-BM
+tH
+tH
 bP
 Qe
 Qe
@@ -12395,9 +12456,9 @@ BS
 Re
 Wz
 il
-Pb
 VG
-WP
+VG
+vV
 bP
 Qe
 Qe
@@ -12512,9 +12573,9 @@ BS
 gT
 Rs
 il
-Qe
-wP
-QO
+VG
+oZ
+VG
 bP
 Qe
 Qe

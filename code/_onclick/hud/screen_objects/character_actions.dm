@@ -457,6 +457,35 @@
 		return
 	H.toggle_genitals()
 
+////////////////////////////////////////////////////////////
+/// give button
+/atom/movable/screen/give_button
+	name = "give somebody something!"
+	icon = 'icons/mob/screen_gen.dmi'
+	icon_state = "give"
+	screen_loc = "CENTER+1:15,SOUTH+1:3"
+
+/atom/movable/screen/give_button/Click(location,control,params)
+	var/mob/living/carbon/human/H = usr
+	if(!ishuman(usr))
+		to_chat(usr, span_alert("Sorry! You've gotta be a fully spawned in character with hopes and dreams to use this!"))
+		return
+	H.give()
+
+////////////////////////////////////////////////////////////
+/// reload button
+/atom/movable/screen/reload_button
+	name = "reload a firearm!"
+	icon = 'icons/mob/screen_gen.dmi'
+	icon_state = "reload"
+	screen_loc = "CENTER+2:11,SOUTH+1:3"
+
+/atom/movable/screen/reload_button/Click(location,control,params)
+	var/mob/living/carbon/human/H = usr
+	if(!ishuman(usr))
+		to_chat(usr, span_alert("Sorry! You've gotta be a fully spawned in character with hopes and dreams to use this!"))
+		return
+	H.ReloadGun()
 
 ////////////////////////////////////////////////////////////
 /// Bite button
@@ -539,7 +568,7 @@
 	name = "tend on people!"
 	icon = 'icons/mob/screen_gen.dmi'
 	icon_state = "tend"
-	screen_loc = "EAST-1:4, SOUTH+4:1"
+	screen_loc = "EAST-1:4, SOUTH+5:1"
 
 /atom/movable/screen/tend_hud_button/Click(location,control,params)
 	var/mob/living/carbon/human/H = usr

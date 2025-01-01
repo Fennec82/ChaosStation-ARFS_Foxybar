@@ -453,6 +453,14 @@
 	private_panel_button = new /atom/movable/screen/private_panel_button()
 	private_panel_button.hud = src
 	infodisplay += private_panel_button
+	
+	give_button = new /atom/movable/screen/give_button()
+	give_button.hud = src
+	infodisplay += give_button	
+	
+	reload_button = new /atom/movable/screen/reload_button()
+	reload_button.hud = src
+	infodisplay += reload_button
 
 	beans_hud_button = new /atom/movable/screen/beans_hud_button()
 	beans_hud_button.hud = src
